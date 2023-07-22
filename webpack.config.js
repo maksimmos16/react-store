@@ -50,6 +50,6 @@ let conf = {
 
 module.exports = (env, options) => {
 	let isProd = options.mode === 'production';
-	conf.devtool = isProd ? false : 'eval-cheap-module-source-map';
+	conf.devtool = isProd ? false : 'eval-cheap-module-source-map' ;
 	return conf;
 }
